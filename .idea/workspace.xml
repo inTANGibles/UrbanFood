@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e696b4-f19f-4cd8-a79b-709849f48d13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CreateProcessBuilding.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateProcessBuilding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CreateProcessBuilding.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PatchCluster.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PatchCluster.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.dbf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.shp" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.shp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.shx" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.shx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patches_with_gwr.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patches_with_gwr.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patches_with_gwr.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patches_with_gwr.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patches_with_gwr.shx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Architecture/AAA-Master/25Spring/ISUF/UrbanFood/playground/GWR_OUTPUT",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Architecture/AAA-Master/25Spring/ISUF/UrbanFood/playground/GWR_OUTPUT&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Architecture\AAA-Master\25Spring\ISUF\UrbanFood\final_data" />
@@ -81,7 +83,8 @@
       <workItem from="1748447794460" duration="6082000" />
       <workItem from="1748507655193" duration="17000" />
       <workItem from="1748521980736" duration="3869000" />
-      <workItem from="1748589779176" duration="13229000" />
+      <workItem from="1748589779176" duration="14728000" />
+      <workItem from="1748627758226" duration="6151000" />
     </task>
     <servers />
   </component>
