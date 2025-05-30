@@ -5,9 +5,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e696b4-f19f-4cd8-a79b-709849f48d13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GWR_Analysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCollection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DataCollection.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/origin_data/joined_grid.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/origin_data/joined_grid.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CorrelationAnalysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CorrelationAnalysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatchCluster.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PatchCluster.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/correlation_matrix.csv" beforeDir="false" afterPath="$PROJECT_DIR$/correlation_matrix.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.gpkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.shp" beforeDir="false" afterPath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.shx" beforeDir="false" afterPath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.shx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/grid_entropy.geojson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/grid_normalized.geojson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/joined_grid.geojson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Burano.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Burano.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Burano.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Burano.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Burano.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Burano.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Burano.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Burano.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Mazzorbo_Torcello.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Mazzorbo_Torcello.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Mazzorbo_Torcello.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Mazzorbo_Torcello.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Mazzorbo_Torcello.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Mazzorbo_Torcello.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Mazzorbo_Torcello.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Spazi_scoperti_Mazzorbo_Torcello.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Unità_edilizie.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Unità_edilizie.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Unità_edilizie.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Unità_edilizie.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Unità_edilizie.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Unità_edilizie.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Unità_edilizie.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/BUMATO_Unità_edilizie.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/Particelle_catastali.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/Particelle_catastali.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/Particelle_catastali.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/Particelle_catastali.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/Particelle_catastali.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/Particelle_catastali.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/Particelle_catastali.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Annessi_rustici.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Annessi_rustici.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Annessi_rustici.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Annessi_rustici.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Annessi_rustici.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Annessi_rustici.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Annessi_rustici.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Annessi_rustici.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edifici_monumentali_e_di_pregio.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edifici_monumentali_e_di_pregio.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edifici_monumentali_e_di_pregio.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edifici_monumentali_e_di_pregio.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edifici_monumentali_e_di_pregio.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edifici_monumentali_e_di_pregio.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edifici_monumentali_e_di_pregio.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edifici_monumentali_e_di_pregio.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edificio_di_recente_costruzione.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edificio_di_recente_costruzione.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edificio_di_recente_costruzione.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edificio_di_recente_costruzione.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edificio_di_recente_costruzione.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edificio_di_recente_costruzione.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edificio_di_recente_costruzione.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Edificio_di_recente_costruzione.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Progetto_unitario_Allegato_D2.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Progetto_unitario_Allegato_D2.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Progetto_unitario_Allegato_D2.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Progetto_unitario_Allegato_D2.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Progetto_unitario_Allegato_D2.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Progetto_unitario_Allegato_D2.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Progetto_unitario_Allegato_D2.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Progetto_unitario_Allegato_D2.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Scheda_normativa_Allegato_D1.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Scheda_normativa_Allegato_D1.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Scheda_normativa_Allegato_D1.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Scheda_normativa_Allegato_D1.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Scheda_normativa_Allegato_D1.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Scheda_normativa_Allegato_D1.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Scheda_normativa_Allegato_D1.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/S_Erasmo_Scheda_normativa_Allegato_D1.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/VPRG_LAGUNA_E_ISOLE_MINORI_Isole.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/VPRG_LAGUNA_E_ISOLE_MINORI_Isole.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/VPRG_LAGUNA_E_ISOLE_MINORI_Isole.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/VPRG_LAGUNA_E_ISOLE_MINORI_Isole.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/VPRG_LAGUNA_E_ISOLE_MINORI_Isole.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/VPRG_LAGUNA_E_ISOLE_MINORI_Isole.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/VPRG_LAGUNA_E_ISOLE_MINORI_Isole.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/5. Buildings/6. Buildings_new/VPRG_LAGUNA_E_ISOLE_MINORI_Isole.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/6_building.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/6_building.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/6_building.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/6_building.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/building_black/6_building.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/farming_green/agriculture.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/farming_green/agriculture.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/farming_green/agriculture.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/farming_green/agriculture.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/farming_green/agriculture.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/processing_red/processing_building.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/processing_red/processing_building.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/processing_red/processing_building.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/processing_red/processing_building.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/processing_red/processing_building.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/road_grey/roads_all.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/road_grey/roads_all.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/road_grey/roads_all.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/road_grey/roads_all.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/road_grey/roads_all.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/water_blue/waterbody.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/water_blue/waterbody.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/water_blue/waterbody.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/water_blue/waterbody.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/water_blue/waterbody.shx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +132,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -33,20 +148,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Architecture/AAA-Master/25Spring/ISUF/UrbanFood&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Architecture/AAA-Master/25Spring/ISUF/UrbanFood/playground/GWR_OUTPUT",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Architecture\AAA-Master\25Spring\ISUF\UrbanFood\final_data" />
@@ -75,7 +190,10 @@
       <workItem from="1748446944213" duration="35000" />
       <workItem from="1748446989308" duration="66000" />
       <workItem from="1748447056603" duration="721000" />
-      <workItem from="1748447794460" duration="5843000" />
+      <workItem from="1748447794460" duration="6082000" />
+      <workItem from="1748507655193" duration="17000" />
+      <workItem from="1748521980736" duration="3869000" />
+      <workItem from="1748589779176" duration="9044000" />
     </task>
     <servers />
   </component>

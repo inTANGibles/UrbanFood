@@ -3,7 +3,10 @@ import geopandas as gpd
 import pandas as pd
 from tqdm import tqdm
 from shapely.geometry import Point
+from shapely.geometry import box
+import matplotlib.pyplot as plt
 
+# region 用于相关性分析
 def get_folder_sizes(root="origin_data"): # 用以检测是否可以上传 GIT-HUB
     """
     返回 root 下每个子文件夹的大小（单位：MB），并按大小降序排序。
@@ -139,3 +142,51 @@ def extract_road_intersections(gdf_roads):
     gdf_intersections = gdf_intersections.drop_duplicates(subset="geometry")
 
     return gdf_intersections
+# endregion
+
+
+# region 用于聚类
+def square_buffer(center, half_size=500):
+    x, y = center.x, center.y
+    return box(x - half_size, y - half_size, x + half_size, y + half_size)
+
+def render_patch_images(
+    building, farming, processing, road, water,
+    output_dir="rendered_images", half_size=500, dpi=300
+):
+    os.makedirs(output_dir, exist_ok=True)
+
+    def render_one_image(center_point, index):
+        buffer = square_buffer(center_point, half_size=half_size)
+        def clip_layer(gdf): return gdf[gdf.geometry.intersects(buffer)]
+
+        bld_clip = clip_layer(building)
+        farm_clip = clip_layer(farming)
+        proc_clip = clip_layer(processing)
+        road_clip = clip_layer(road)
+        water_clip = clip_layer(water)
+
+        fig, ax = plt.subplots(figsize=(8, 8))
+        ax.set_facecolor("white")
+
+        water_clip.plot(ax=ax, color='blue', edgecolor='none')
+        farm_clip.plot(ax=ax, color='green', edgecolor='none')
+        road_clip.plot(ax=ax, color='grey', linewidth=5)
+        bld_clip.plot(ax=ax, color='black', edgecolor='none')
+        proc_clip.plot(ax=ax, color='red')
+
+        ax.set_xlim(buffer.bounds[0], buffer.bounds[2])
+        ax.set_ylim(buffer.bounds[1], buffer.bounds[3])
+        ax.axis("off")
+
+        plt.tight_layout()
+        save_path = os.path.join(output_dir, f"render_{index:03d}.png")
+        plt.savefig(save_path, dpi=dpi)
+        plt.close()
+
+    for idx, row in processing.iterrows():
+        center = row.geometry.centroid
+        render_one_image(center, idx)
+
+    print(f"✅ 共生成 {len(processing)} 张图，保存在 {output_dir}/ 中")
+# endregion
