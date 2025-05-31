@@ -6,13 +6,81 @@
   <component name="ChangeListManager">
     <list default="true" id="a1e696b4-f19f-4cd8-a79b-709849f48d13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CorrelationAnalysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CorrelationAnalysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CreateProcessBuilding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CreateProcessBuilding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWR_Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GWR_Analysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PatchCluster.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PatchCluster.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patches_with_gwr.cpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patches_with_gwr.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patches_with_gwr.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patches_with_gwr.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patches_with_gwr.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/correlation_matrix.csv" beforeDir="false" afterPath="$PROJECT_DIR$/correlation_matrix.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.shp" beforeDir="false" afterPath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.shx" beforeDir="false" afterPath="$PROJECT_DIR$/origin_data/04_transformation_industry/processing.shx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/21.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/22.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/23.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/24.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/25.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/26.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/27.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/28.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/29.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/30.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/31.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/32.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/33.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/34.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/35.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/36.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/37.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/38.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/39.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/41.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/42.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/42.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/43.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/44.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/45.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/46.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/47.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/48.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/49.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/50.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/51.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/51.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/52.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/52.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/53.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/53.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/54.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/54.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/55.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/56.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/56.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/57.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/Pro_Build_Debug/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/playground/Pro_Build_Debug/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/grid/grid_normalized_2500.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/grid/grid_normalized_2500.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/grid/joined_grid_2500.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/grid/joined_grid_2500.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.shp" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.shp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.shx" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/img/processing_red/processing_building.shx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/patch/joined_patches_1000.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/patch/joined_patches_1000.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/patch/patches_1000.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/patch/patches_1000.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing_data/patch/patches_normalized_1000.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/processing_data/patch/patches_normalized_1000.geojson" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +152,8 @@
       <workItem from="1748507655193" duration="17000" />
       <workItem from="1748521980736" duration="3869000" />
       <workItem from="1748589779176" duration="14728000" />
-      <workItem from="1748627758226" duration="6151000" />
+      <workItem from="1748627758226" duration="6901000" />
+      <workItem from="1748684935852" duration="10683000" />
     </task>
     <servers />
   </component>
