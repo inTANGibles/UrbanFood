@@ -7,12 +7,10 @@
     <list default="true" id="a1e696b4-f19f-4cd8-a79b-709849f48d13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_结论部分.docx" beforeDir="false" afterPath="$PROJECT_DIR$/01_结论部分.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWR_Analysis copy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GWR_Analysis copy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Indicator.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Indicator.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PatchCluster.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PatchCluster.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/correlation_matrix.csv" beforeDir="false" afterPath="$PROJECT_DIR$/correlation_matrix.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwr_coefficients.csv" beforeDir="false" afterPath="$PROJECT_DIR$/gwr_coefficients.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patches_with_gwr.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/patches_with_gwr.geojson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variable_combination_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/variable_combination_results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$1_结论部分.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~WRL1843.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,10 @@
       <workItem from="1749367607019" duration="9350000" />
       <workItem from="1749377451546" duration="1213000" />
       <workItem from="1749382008622" duration="561000" />
-      <workItem from="1749394382812" duration="6007000" />
+      <workItem from="1749394382812" duration="8477000" />
+      <workItem from="1749481719153" duration="7165000" />
+      <workItem from="1749900984519" duration="769000" />
+      <workItem from="1749986346543" duration="55000" />
     </task>
     <servers />
   </component>
@@ -105,7 +106,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
